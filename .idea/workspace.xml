@@ -19,15 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Fix publication file name">
+    <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Update about and publication">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_publications/2018-06-05-paper-title-number-1.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_publications/2019-06-06-paper-title-number-2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_publications/2020-09-16-paper-title-number-3.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/paper1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/paper2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/paper3.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +67,7 @@
       <workItem from="1600239003530" duration="18000" />
       <workItem from="1600239233350" duration="606000" />
       <workItem from="1600239852563" duration="287000" />
-      <workItem from="1600243789563" duration="3604000" />
+      <workItem from="1600243789563" duration="4403000" />
     </task>
     <task id="LOCAL-00001" summary="First update">
       <created>1600195064597</created>
@@ -109,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600245721517</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update about">
+      <created>1600248560370</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600248560370</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +132,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First update" />
     <MESSAGE value="Fix publication file name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix publication file name" />
+    <MESSAGE value="Update about" />
+    <MESSAGE value="Update about and publication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update about and publication" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1600240202526">
@@ -145,13 +149,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600239962095" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600245728545">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600248566012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600245728545" />
-    <state x="662" y="118" width="596" height="804" key="find.popup" timestamp="1600246295289">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600248566012" />
+    <state x="662" y="118" width="596" height="804" key="find.popup" timestamp="1600249212485">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="118" width="596" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600246295289" />
+    <state x="662" y="118" width="596" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600249212485" />
   </component>
 </project>
