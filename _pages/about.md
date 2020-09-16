@@ -14,10 +14,15 @@ Previously, I was a Ph.D. student (thesis submitted) supervised by [Prof. Yang L
 
 
 ## Research Interests
-
+  * Mobile Security Threats Analysis and Protection: AI and Knowledge Based Code Impact Analysis
   * Security, Usability and Reliability Analysis toward Mobile Security Technologies
-  * Knowledge Based Code Impact Analysis toward Mobile Security Threats
   * Human Factor Based Mobile Security Technologies
+  
+## Other Interests
+  * Basketball
+  * Cycling
+  * Tour
+  * [Photography](https://sites.google.com/site/ruitaosphotograph/)
 
 ## Recent News
   * (09/2020) I serve as a PC member in the 26th Asia-Pacific Software Engineering Conference (APSEC) 2020. My first official academic service.
