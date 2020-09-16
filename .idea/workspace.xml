@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Disable sitemap and feed">
-      <change afterPath="$PROJECT_DIR$/_pages/moreaboutme.md" afterDir="false" />
+    <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Add more about me">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <workItem from="1600239003530" duration="18000" />
       <workItem from="1600239233350" duration="606000" />
       <workItem from="1600239852563" duration="287000" />
-      <workItem from="1600243789563" duration="10418000" />
+      <workItem from="1600243789563" duration="10469000" />
     </task>
     <task id="LOCAL-00001" summary="First update">
       <created>1600195064597</created>
@@ -168,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600255179854</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add more about me">
+      <created>1600255582730</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1600255582730</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +203,8 @@
     <MESSAGE value="Update interests" />
     <MESSAGE value="Update publications.md" />
     <MESSAGE value="Disable sitemap and feed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Disable sitemap and feed" />
+    <MESSAGE value="Add more about me" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add more about me" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1600240202526">
@@ -212,13 +219,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600239962095" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600255184038">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600255589861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600255184038" />
-    <state x="662" y="118" width="596" height="804" key="find.popup" timestamp="1600255160495">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600255589861" />
+    <state x="662" y="118" width="596" height="804" key="find.popup" timestamp="1600255609434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="118" width="596" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600255160495" />
+    <state x="662" y="118" width="596" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600255609434" />
   </component>
 </project>
