@@ -10,7 +10,7 @@ redirect_from:
 
 Currently, I am a research assistant in School of Computer Science and Engineering, Nanyang Technological University, Singapore in Prof. Yang LIU’s group (2014-now).
 
-Previously, I was a Ph.D. student (thesis submitted) supervised by [Prof. Yang LIU](https://www.ntu.edu.sg/home/yangliu/) and [Prof. Shang-Wei LIN](https://www.ntu.edu.sg/home/shang-wei.lin/). I obtained my B.E. (2010-2014) degree from Tianjin University, China.
+I am a Ph.D. student (thesis submitted) supervised by [Prof. Yang LIU](https://www.ntu.edu.sg/home/yangliu/){:target="_blank"} and [Prof. Shang-Wei LIN](https://www.ntu.edu.sg/home/shang-wei.lin/){:target="_blank"} in School of Computer Science and Engineering, Nanyang Technological University, Singapore. I obtained my B.E. (2010-2014) degree from Tianjin University, China.
 
 
 ## Research Interests
