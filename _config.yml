@@ -97,7 +97,7 @@ author:
   facebook         :
   foursquare       :
   github           : #"academicpages"
-  google_plus      : "https://sites.google.com/site/ruitaosphotograph/"
+  google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
@@ -265,6 +265,7 @@ plugins:
   - jekyll-gist
 #  - jekyll-feed
   - jekyll-redirect-from
+  - jemoji
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
