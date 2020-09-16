@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="First update" />
+    <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Fix publication file name" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -93,10 +94,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="First update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="814" y="417" key="Github.ShareDialog" timestamp="1600240097006">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1600240202526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="814" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600240097006" />
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600240202526" />
+    <state x="814" y="417" key="Github.ShareDialog" timestamp="1600240243395">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="814" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600240243395" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1600239962095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
