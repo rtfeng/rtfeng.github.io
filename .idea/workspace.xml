@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Update about and publication">
+    <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Update publication and google site link">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
     </list>
@@ -67,7 +68,7 @@
       <workItem from="1600239003530" duration="18000" />
       <workItem from="1600239233350" duration="606000" />
       <workItem from="1600239852563" duration="287000" />
-      <workItem from="1600243789563" duration="5331000" />
+      <workItem from="1600243789563" duration="6202000" />
     </task>
     <task id="LOCAL-00001" summary="First update">
       <created>1600195064597</created>
@@ -118,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600249357962</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update publication and google site link">
+      <created>1600250293317</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600250293317</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +149,8 @@
     <MESSAGE value="Fix publication file name" />
     <MESSAGE value="Update about" />
     <MESSAGE value="Update about and publication" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update about and publication" />
+    <MESSAGE value="Update publication and google site link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update publication and google site link" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1600240202526">
@@ -156,13 +165,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600239962095" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600249361268">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600250296314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600249361268" />
-    <state x="662" y="118" width="596" height="804" key="find.popup" timestamp="1600249212485">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600250296314" />
+    <state x="662" y="118" width="596" height="804" key="find.popup" timestamp="1600251032800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="118" width="596" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600249212485" />
+    <state x="662" y="118" width="596" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600251032800" />
   </component>
 </project>
