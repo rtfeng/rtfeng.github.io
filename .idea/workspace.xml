@@ -22,8 +22,6 @@
     <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Try link with new page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/activities.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/activities.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/publications.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/publications.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,8 @@
       <workItem from="1600239003530" duration="18000" />
       <workItem from="1600239233350" duration="606000" />
       <workItem from="1600239852563" duration="287000" />
-      <workItem from="1600243789563" duration="12869000" />
+      <workItem from="1600243789563" duration="13484000" />
+      <workItem from="1600266837816" duration="569000" />
     </task>
     <task id="LOCAL-00001" summary="First update">
       <created>1600195064597</created>
@@ -211,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600257817097</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Try link with new page">
+      <created>1600258031803</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1600258031803</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,10 +266,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600239962095" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600257821647">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600258037187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600257821647" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600258037187" />
     <state x="662" y="118" width="596" height="804" key="find.popup" timestamp="1600256879278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

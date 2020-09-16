@@ -14,6 +14,12 @@ I am a Ph.D. student (thesis submitted) supervised by [Prof. Yang LIU](https://w
 
 
 ## Research Interests
+  * Mobile Security
+  * AI Security
+  * Big Data Security
+  * Human-Computer Interaction Security
+
+## Current Research
   * Mobile Security Threats Analysis and Protection: AI and Knowledge Based Code Impact Analysis
   * Security, Usability and Reliability Analysis toward Mobile Security Technologies
   * Human Factor Based Mobile Security Technologies
