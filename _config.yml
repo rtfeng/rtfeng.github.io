@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "FENG Ruitao (冯睿韬)"
   avatar           : "Head.png"
-  bio              : "Ph.D.@Cyber Security Lab@Nanyang Technological University"
+  bio              : "Ph.D.@Cyber Security Lab"
   location         : "Singapore"
-  employer         :
+  employer         : "Nanyang Technological University"
   pubmed           :  #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : https://scholar.google.com/citations?user=ev-Zbf4AAAAJ
+  googlescholar    : "https://scholar.google.com/citations?user=ev-Zbf4AAAAJ"
   email            : "feng0082@e.ntu.edu.sg"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -97,7 +97,7 @@ author:
   facebook         :
   foursquare       :
   github           : #"academicpages"
-  google_plus      :
+  google_plus      : "https://sites.google.com/site/ruitaosphotograph/"
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
@@ -192,16 +192,16 @@ collections:
 # Defaults
 defaults:
   # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+#  - scope:
+#      path: ""
+#      type: posts
+#    values:
+#      layout: single
+#      author_profile: true
+#      read_time: true
+#      comments: true
+#      share: true
+#      related: true
   # _pages
   - scope:
       path: ""
