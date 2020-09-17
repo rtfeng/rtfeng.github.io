@@ -69,7 +69,7 @@
       <workItem from="1600243789563" duration="13484000" />
       <workItem from="1600266837816" duration="1208000" />
       <workItem from="1600270697288" duration="1045000" />
-      <workItem from="1600322151444" duration="1237000" />
+      <workItem from="1600322151444" duration="1474000" />
     </task>
     <task id="LOCAL-00001" summary="First update">
       <created>1600195064597</created>
@@ -267,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600323330285</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Add globe">
+      <created>1600323507227</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1600323507227</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,10 +325,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600239962095" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600323333233">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600323511829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600323333233" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600323511829" />
     <state x="662" y="118" width="596" height="804" key="find.popup" timestamp="1600323306077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
