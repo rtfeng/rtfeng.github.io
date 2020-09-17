@@ -22,6 +22,7 @@
     <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Small fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer/custom.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer/custom.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +48,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\WebstormProjects\rtfeng.github.io\images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\WebStormProjects\rtfeng.github.io\_pages" />
       <recent name="C:\Users\admin\WebstormProjects\rtfeng.github.io\_publications" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\WebstormProjects\rtfeng.github.io\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -69,7 +70,8 @@
       <workItem from="1600239852563" duration="287000" />
       <workItem from="1600243789563" duration="13484000" />
       <workItem from="1600266837816" duration="1208000" />
-      <workItem from="1600270697288" duration="1032000" />
+      <workItem from="1600270697288" duration="1045000" />
+      <workItem from="1600322151444" duration="1109000" />
     </task>
     <task id="LOCAL-00001" summary="First update">
       <created>1600195064597</created>
@@ -253,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600271625375</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Small fix">
+      <created>1600271734542</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1600271734542</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,13 +312,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600239962095" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600271630610">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600271738455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600271630610" />
-    <state x="662" y="118" width="596" height="804" key="find.popup" timestamp="1600270985329">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600271738455" />
+    <state x="662" y="118" width="596" height="804" key="find.popup" timestamp="1600323306077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="118" width="596" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600270985329" />
+    <state x="662" y="118" width="596" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600323306077" />
   </component>
 </project>
