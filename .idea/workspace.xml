@@ -19,9 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Update google">
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+    <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Update sitemap">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/moreaboutme.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/moreaboutme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/publications.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/publications.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_portfolio/portfolio-1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_portfolio/portfolio-2.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +77,8 @@
       <workItem from="1600266837816" duration="1208000" />
       <workItem from="1600270697288" duration="1045000" />
       <workItem from="1600322151444" duration="2382000" />
-      <workItem from="1600518754898" duration="1265000" />
+      <workItem from="1600518754898" duration="3045000" />
+      <workItem from="1601451735991" duration="168000" />
     </task>
     <task id="LOCAL-00001" summary="First update">
       <created>1600195064597</created>
@@ -320,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600519834008</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Update sitemap">
+      <created>1600520033618</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1600520033618</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,7 +370,8 @@
     <MESSAGE value="Add globe" />
     <MESSAGE value="Update google search" />
     <MESSAGE value="Update google" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update google" />
+    <MESSAGE value="Update sitemap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update sitemap" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1600240202526">
@@ -373,10 +386,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600239962095" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600519838125">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600520037824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600519838125" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600520037824" />
     <state x="662" y="118" width="596" height="804" key="find.popup" timestamp="1600323791693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

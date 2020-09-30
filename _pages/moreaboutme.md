@@ -16,4 +16,4 @@ I'm a believer of rationalism and pacifism.
 
 ## Useful Links
   * English Writing: [The Elements of Style](http://www.crockford.com/wrrrld/style.html){:target="_blank"}, by William Strunk, Jr.
-  * Paper Reading: [How to Read a Paper](http://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/07/paper-reading.pdf){:target="_blank"}, by S. Keshav
+  * Paper Reading: [How to Read a Paper](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf){:target="_blank"}, by S. Keshav
