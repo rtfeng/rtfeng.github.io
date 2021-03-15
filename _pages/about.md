@@ -10,7 +10,7 @@ redirect_from:
 
 Currently, I am a research assistant in School of Computer Science and Engineering, Nanyang Technological University, Singapore in Prof. Yang LIU’s group (2014-now).
 
-I am a Ph.D. student (thesis submitted) supervised by [Prof. Yang LIU](https://www.ntu.edu.sg/home/yangliu/){:target="_blank"} and [Prof. Shang-Wei LIN](https://www.ntu.edu.sg/home/shang-wei.lin/){:target="_blank"} in School of Computer Science and Engineering, Nanyang Technological University, Singapore. I obtained my B.E. (2010-2014) degree from Tianjin University, China.
+Previously, I was a Ph.D. (2016-2021) student supervised by [Prof. Yang LIU](https://personal.ntu.edu.sg/yangliu/){:target="_blank"} and [Prof. Shang-Wei LIN](https://dr.ntu.edu.sg/cris/rp/rp00861){:target="_blank"} in School of Computer Science and Engineering, Nanyang Technological University, Singapore. I obtained my B.E. (2010-2014) degree from Tianjin University, China.
 
 
 ## Research Interests
@@ -26,6 +26,8 @@ I am a Ph.D. student (thesis submitted) supervised by [Prof. Yang LIU](https://w
 
 
 ## Recent News
+  * (02/2021) :clap: Officially receive PhD degree from NTU. Now, we got 2 more family members who have PhD degrees.
+  * (01/2021) :couple_with_heart: We got married.
   * (09/2020) I serve as a PC member in the 26th Asia-Pacific Software Engineering Conference (APSEC) 2020. My first official academic service.
   * (09/2020) :star: Our paper “A Performance-Sensitive Malware Detection System Using Deep Learning on Mobile Devices” is accepted by IEEE TIFS 2020.
   * (08/2020) :star: Our paper “SeqMobile: An Efficient Sequence-Based Malware Detection System Using RNN on Mobile Devices” is accepted by ICECCS 2020.
