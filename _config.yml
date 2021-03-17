@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "FENG Ruitao's HOMEPAGE"
+title                    : "Dr. FENG Ruitao's HOMEPAGE"
 title_separator          : "-"
 name                     : &name "FENG Ruitao (冯睿韬)"
-description              : &description "Ph.D.@Cyber Security Lab@Nanyang Technological University"
+description              : &description "Research Fellow@CYSREN@Nanyang Technological University"
 url                      : https://rtfeng.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rtfeng/rtfeng.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "FENG Ruitao (冯睿韬)"
   avatar           : "Head.png"
-  bio              : "Ph.D.@Cyber Security Lab"
+  bio              : "Research Fellow@CYSREN"
   location         : "Singapore"
   employer         : "Nanyang Technological University"
   pubmed           :  #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

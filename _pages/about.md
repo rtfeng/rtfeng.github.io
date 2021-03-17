@@ -8,9 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Currently, I am a research assistant in School of Computer Science and Engineering, Nanyang Technological University, Singapore in Prof. Yang LIU’s group (2014-now).
+Currently, I am a research fellow in Cyber Security Research Centre (CYSREN), Nanyang Technological University, Singapore. My PI is Prof. LIU Yang (2021-now).
+Previously, I was a research assistant (2014-2021) in School of Computer Science and Engineering, Nanyang Technological University, Singapore.
 
-Previously, I was a Ph.D. (2016-2021) student supervised by [Prof. Yang LIU](https://personal.ntu.edu.sg/yangliu/){:target="_blank"} and [Prof. Shang-Wei LIN](https://dr.ntu.edu.sg/cris/rp/rp00861){:target="_blank"} in School of Computer Science and Engineering, Nanyang Technological University, Singapore. I obtained my B.E. (2010-2014) degree from Tianjin University, China.
+I obtained my Ph.D. (2016-2021) degree from School of Computer Science and Engineering, Nanyang Technological University, Singapore. I was supervised by [Prof. LIU Yang](https://personal.ntu.edu.sg/yangliu/){:target="_blank"} and [Prof. LIN Shang-Wei](https://dr.ntu.edu.sg/cris/rp/rp00861){:target="_blank"}.
+I obtained my B.E. (2010-2014) in computer science degree from Tianjin University, China.
 
 
 ## Research Interests
