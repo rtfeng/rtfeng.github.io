@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Update news">
+    <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Update title">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,8 @@
       <workItem from="1600518754898" duration="3045000" />
       <workItem from="1601451735991" duration="230000" />
       <workItem from="1615805451748" duration="1108000" />
-      <workItem from="1615978370291" duration="756000" />
+      <workItem from="1615978370291" duration="805000" />
+      <workItem from="1615979307797" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="First update">
       <created>1600195064597</created>
@@ -345,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615806543597</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Update title">
+      <created>1615979167529</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1615979167529</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,16 +393,17 @@
     <MESSAGE value="Update sitemap" />
     <MESSAGE value="Update links" />
     <MESSAGE value="Update news" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update news" />
+    <MESSAGE value="Update title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update title" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615806554041">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615979173980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615806554041" />
-    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1615978690699">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615979173980" />
+    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1615979326428">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615978690699" />
+    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615979326428" />
   </component>
 </project>
