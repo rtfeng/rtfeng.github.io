@@ -9,11 +9,25 @@ redirect_from:
 ---
 
 Currently, I am a research fellow in Cyber Security Research Centre (CYSREN), Nanyang Technological University, Singapore. My PI is Prof. LIU Yang (2021-now).
-Previously, I was a research assistant (2014-2021) in School of Computer Science and Engineering, Nanyang Technological University, Singapore.
 
-I obtained my Ph.D. (2016-2021) degree from School of Computer Science and Engineering, Nanyang Technological University, Singapore. I was supervised by [Prof. LIU Yang](https://personal.ntu.edu.sg/yangliu/){:target="_blank"} and [Prof. LIN Shang-Wei](https://dr.ntu.edu.sg/cris/rp/rp00861){:target="_blank"}.
-I obtained my B.E. (2010-2014) degree in computer science from Tianjin University, China.
+## Education
+* Ph.D.(Jan 2016 - Feb 2021)
+  Thesis: From market to device : adaptive and efficient malware detection for Android
+  Supervisors: [Prof. LIU Yang](https://personal.ntu.edu.sg/yangliu/){:target="_blank"} and [Prof. LIN Shang-Wei](https://dr.ntu.edu.sg/cris/rp/rp00861){:target="_blank"}.
+  School of Computer Science and Engineering,
+  Nanyang Technological University, Singapore
+* B.S.(Jul 2010 - Jun 2014)
+  Thesis: Research of Complex Query Technology on Semantic Big Data
+  School of Computing Science and Technology.
+  Tianjin University, China
 
+## Working Experience
+* Research Assistant (Sep 2014 - Feb 2021)
+  School of Computer Science and Engineering,
+  Nanyang Technological University, Singapore
+* Research Fellow (Mar 2021 - Present)
+  School of Computer Science and Engineering,
+  Nanyang Technological University, Singapore
 
 ## Research Interests
   * Mobile Security
@@ -25,7 +39,6 @@ I obtained my B.E. (2010-2014) degree in computer science from Tianjin Universit
   * Mobile Security Threats Analysis and Protection: AI and Knowledge Based Code Impact Analysis
   * Security, Usability and Reliability Analysis toward Mobile Security Technologies
   * Human Factor Based Mobile Security Technologies
-
 
 ## Recent News
   * (02/2021) :clap: Officially receive PhD degree from NTU. Now, we got 2 more family members who have PhD degrees.
