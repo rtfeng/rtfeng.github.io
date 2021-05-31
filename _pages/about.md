@@ -15,7 +15,6 @@ Currently, I am a research fellow in Cyber Security Research Centre (CYSREN), Na
   Thesis: _From market to device : adaptive and efficient malware detection for Android_.
   Supervisors: [Prof. LIU Yang](https://personal.ntu.edu.sg/yangliu/){:target="_blank"} and [Prof. LIN Shang-Wei](https://dr.ntu.edu.sg/cris/rp/rp00861){:target="_blank"}.
   School of Computer Science and Engineering, Nanyang Technological University, Singapore
-  
 * **B.S.** (Jul 2010 - Jun 2014).
   Thesis: _Research of Complex Query Technology on Semantic Big Data_.
   School of Computing Science and Technology, Tianjin University, China.
