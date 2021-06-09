@@ -10,6 +10,12 @@ redirect_from:
 
 Currently, I am a research fellow in Cyber Security Research Centre (CYSREN), Nanyang Technological University, Singapore. My PI is Prof. LIU Yang (2021-now).
 
+## Working Experience
+* **Research Fellow** (Mar 2021 - Present).
+  School of Computer Science and Engineering, Nanyang Technological University, Singapore.
+* **Research Assistant** (Sep 2014 - Feb 2021).
+  School of Computer Science and Engineering, Nanyang Technological University, Singapore.
+
 ## Education
 * **Ph.D.** (Jan 2016 - Feb 2021).
   Thesis: _From market to device : adaptive and efficient malware detection for Android_.
@@ -18,12 +24,6 @@ Currently, I am a research fellow in Cyber Security Research Centre (CYSREN), Na
 * **B.S.** (Jul 2010 - Jun 2014).
   Thesis: _Research of Complex Query Technology on Semantic Big Data_.
   School of Computing Science and Technology, Tianjin University, China.
-
-## Working Experience
-* **Research Assistant** (Sep 2014 - Feb 2021).
-  School of Computer Science and Engineering, Nanyang Technological University, Singapore.
-* **Research Fellow** (Mar 2021 - Present).
-  School of Computer Science and Engineering, Nanyang Technological University, Singapore.
 
 ## Research Interests
   * Mobile Security
