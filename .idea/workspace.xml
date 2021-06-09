@@ -19,18 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Update About me">
-      <change afterPath="$PROJECT_DIR$/_pages/service.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_pages/teaching.md" afterDir="false" />
+    <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Update Teaching and Activity">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/activities.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/activities.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/cv.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/markdown.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/non-menu-page.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/sitemap.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/terms.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +83,7 @@
       <workItem from="1621687885891" duration="7000" />
       <workItem from="1622352706770" duration="3054000" />
       <workItem from="1622435420302" duration="930000" />
-      <workItem from="1623230096297" duration="1193000" />
+      <workItem from="1623230096297" duration="1383000" />
     </task>
     <task id="LOCAL-00001" summary="First update">
       <created>1600195064597</created>
@@ -408,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622435766599</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Update Teaching and Activity">
+      <created>1623231331023</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1623231331023</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +426,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First update" />
     <MESSAGE value="Fix publication file name" />
     <MESSAGE value="Update about" />
     <MESSAGE value="Update about and publication" />
@@ -452,6 +450,7 @@
     <MESSAGE value="Update title" />
     <MESSAGE value="Update email" />
     <MESSAGE value="Update About me" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update About me" />
+    <MESSAGE value="Update Teaching and Activity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Teaching and Activity" />
   </component>
 </project>
