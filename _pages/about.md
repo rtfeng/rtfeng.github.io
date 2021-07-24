@@ -37,6 +37,7 @@ Currently, I am a research fellow in Cyber Security Research Centre (CYSREN), Na
   * Human Factor Based Mobile Security Technologies
 
 ## Recent News
+  * (07/2021) Call For Paper : TDSC Special Issue on Reliability and Robustness in AI-Based Cybersecurity Solutions.
   * (02/2021) :clap: Officially receive PhD degree from NTU. Now, we got 2 more family members who have PhD degrees.
   * (01/2021) :couple_with_heart: We got married.
   * (09/2020) I serve as a PC member in the 26th Asia-Pacific Software Engineering Conference (APSEC) 2020. My first official academic service.
