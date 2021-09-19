@@ -7,6 +7,8 @@ author_profile: true
 
 You can also find my articles on my [Google Scholar](https://scholar.google.com/citations?hl=en&user=ev-Zbf4AAAAJ){:target="_blank"} profile.
 
+### 2021
+  * Yuxuan Li, **Ruitao Feng**, Sen Chen, Qianyu Guo, Lingling Fan and Xiaohong Li. **IconChecker: Anomaly Detection of Icon-Behaviors for Android Apps.** In _Proceedings of the 28th Asia-Pacific Software Engineering Conference_.
 
 ### 2020
   * **Ruitao Feng**, Sen Chen, Xiaofei Xie, Guozhu Meng, Shang-Wei Lin, and Yang Liu. **A Performance-Sensitive Malware Detection System Using Deep Learning on Mobile Devices.** In _the IEEE Transactions on Information Forensics and Security_.

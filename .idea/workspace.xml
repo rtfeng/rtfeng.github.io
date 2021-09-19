@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Add SMS-MAL">
+    <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Update SMS-MAL">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/publications.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/publications.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -86,14 +88,8 @@
       <workItem from="1623230096297" duration="1941000" />
       <workItem from="1627120637538" duration="762000" />
       <workItem from="1631234379090" duration="488000" />
-      <workItem from="1631234946851" duration="62000" />
-    </task>
-    <task id="LOCAL-00003" summary="Fix publication file name">
-      <created>1600243805888</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1600243805888</updated>
+      <workItem from="1631234946851" duration="100000" />
+      <workItem from="1632048871166" duration="213000" />
     </task>
     <task id="LOCAL-00004" summary="Fix publication file name">
       <created>1600243886297</created>
@@ -431,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631234858171</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Update SMS-MAL">
+      <created>1631235027775</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1631235027775</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +453,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update publication and google site link" />
     <MESSAGE value="Fix and disable unused feature" />
     <MESSAGE value="Fix emoji" />
     <MESSAGE value="Update publications.md" />
@@ -475,6 +477,7 @@
     <MESSAGE value="Update config" />
     <MESSAGE value="Update activity" />
     <MESSAGE value="Add SMS-MAL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add SMS-MAL" />
+    <MESSAGE value="Update SMS-MAL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update SMS-MAL" />
   </component>
 </project>
