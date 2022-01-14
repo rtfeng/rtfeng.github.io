@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Update SMS-MAL">
+    <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Update APSEC 2021">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/masthead.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/masthead.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/publications.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/publications.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,14 +89,8 @@
       <workItem from="1627120637538" duration="762000" />
       <workItem from="1631234379090" duration="488000" />
       <workItem from="1631234946851" duration="100000" />
-      <workItem from="1632048871166" duration="213000" />
-    </task>
-    <task id="LOCAL-00004" summary="Fix publication file name">
-      <created>1600243886297</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1600243886297</updated>
+      <workItem from="1632048871166" duration="273000" />
+      <workItem from="1642185585630" duration="311000" />
     </task>
     <task id="LOCAL-00005" summary="Fix publication file name">
       <created>1600245721516</created>
@@ -434,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631235027775</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Update APSEC 2021">
+      <created>1632049118061</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1632049118062</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +454,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix and disable unused feature" />
     <MESSAGE value="Fix emoji" />
     <MESSAGE value="Update publications.md" />
     <MESSAGE value="Disable sitemap and feed" />
@@ -478,6 +478,7 @@
     <MESSAGE value="Update activity" />
     <MESSAGE value="Add SMS-MAL" />
     <MESSAGE value="Update SMS-MAL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update SMS-MAL" />
+    <MESSAGE value="Update APSEC 2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update APSEC 2021" />
   </component>
 </project>
