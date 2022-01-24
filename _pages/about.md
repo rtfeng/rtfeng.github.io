@@ -41,7 +41,3 @@ Currently, I am a research fellow in Cyber Security Research Centre (CYSREN), Na
   * (07/2021) Call For Paper : TDSC Special Issue on Reliability and Robustness in AI-Based Cybersecurity Solutions.
   * (02/2021) :clap: Officially receive PhD degree from NTU.
   * (01/2021) :couple_with_heart: Got married.
-  * (09/2020) I serve as a PC member in the 26th Asia-Pacific Software Engineering Conference (APSEC) 2020. My first official academic service.
-  * (09/2020) :star: Our paper “A Performance-Sensitive Malware Detection System Using Deep Learning on Mobile Devices” is accepted by IEEE TIFS 2020.
-  * (08/2020) :star: Our paper “SeqMobile: An Efficient Sequence-Based Malware Detection System Using RNN on Mobile Devices” is accepted by ICECCS 2020.
-  * (08/2020) :clap: I submitted my thesis.

@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Update Close icon">
+    <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Update Link">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/moreaboutme.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/moreaboutme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/activities.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/activities.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,14 +89,8 @@
       <workItem from="1631234379090" duration="488000" />
       <workItem from="1631234946851" duration="100000" />
       <workItem from="1632048871166" duration="273000" />
-      <workItem from="1642185585630" duration="970000" />
-    </task>
-    <task id="LOCAL-00006" summary="Update about">
-      <created>1600248560370</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1600248560370</updated>
+      <workItem from="1642185585630" duration="1007000" />
+      <workItem from="1643024901839" duration="22000" />
     </task>
     <task id="LOCAL-00007" summary="Update about and publication">
       <created>1600249357962</created>
@@ -434,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642185969096</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Update Link">
+      <created>1642186590732</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1642186590732</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +454,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update publications.md" />
     <MESSAGE value="Disable sitemap and feed" />
     <MESSAGE value="Add more about me" />
     <MESSAGE value="Update footnote" />
@@ -478,6 +478,7 @@
     <MESSAGE value="Update SMS-MAL" />
     <MESSAGE value="Update APSEC 2021" />
     <MESSAGE value="Update Close icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Close icon" />
+    <MESSAGE value="Update Link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Link" />
   </component>
 </project>

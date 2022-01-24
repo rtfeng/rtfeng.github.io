@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can also find my articles on my [Google Scholar](https://scholar.google.com/citations?hl=en&user=ev-Zbf4AAAAJ){:target="_blank"} profile.
+You can also find my publications on [Google Scholar](https://scholar.google.com/citations?hl=en&user=ev-Zbf4AAAAJ){:target="_blank"}.
 
 ### 2021
   * Yuxuan Li, **Ruitao Feng**, Sen Chen, Qianyu Guo, Lingling Fan and Xiaohong Li. **IconChecker: Anomaly Detection of Icon-Behaviors for Android Apps.** In _Proceedings of the 28th Asia-Pacific Software Engineering Conference_.
@@ -17,7 +17,7 @@ You can also find my articles on my [Google Scholar](https://scholar.google.com/
 ### 2019
   * **Ruitao Feng**, Sen Chen, Xiaofei Xie, Lei Ma, Guozhu Meng, Yang Liu, and Shang-Wei Lin. **MobiDroid: A Performance-Sensitive Malware Detection System on Mobile Platform.** In _Proceedings of the 24th International Conference on Engineering of Complex Computer Systems_.
   * **Ruitao Feng**, Yang Liu, and Shang-Wei Lin. **A Performance-Sensitive Malware Detection System on Mobile Platform.** In _Proceedings of the 21st International Conference on Formal Engineering Methods_.
-  * **Ruitao Feng**, Guozhu Meng, Xiaofei Xie, TingSu, Yang Liu, and Shang-Wei Lin. **Learning Performance Optimization from Code Changesfor Android Apps.** In _Proceedings of the 12th International Conference on Software Testing, Verification and Validation Workshops_.
+  * **Ruitao Feng**, Guozhu Meng, Xiaofei Xie, TingSu, Yang Liu, and Shang-Wei Lin. **Learning Performance Optimization from Code Changes for Android Apps.** In _Proceedings of the 12th International Conference on Software Testing, Verification and Validation Workshops_.
 
 ### 2018
-  * Guozhu Meng, **Ruitao Feng**, Guangdong Bai, Kai Chen, and Yang Liu. **DroidEcho: an in Depth Dissecti on of Malicious Behaviors in Android Applications.** In _Cybersecurity_.
+  * Guozhu Meng, **Ruitao Feng**, Guangdong Bai, Kai Chen, and Yang Liu. **DroidEcho: An In-depth Dissection of Malicious Behaviors in Android Applications.** In _Cybersecurity_.
