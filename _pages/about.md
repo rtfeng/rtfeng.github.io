@@ -27,14 +27,15 @@ Currently, I am a research fellow in Cyber Security Research Centre (CYSREN), Na
 
 ## Research Interests
   * Mobile Security
-  * AI Security
-  * Big Data Security
+  * AI Security and Reliability
   * Human-Computer Interaction Security
+  * :new: IoT Security
 
 ## Current Research
-  * Mobile Security Threats Analysis and Protection: AI and Knowledge Based Code Impact Analysis
-  * Security, Usability and Reliability Analysis toward Mobile Security Technologies
-  * Human Factor Based Mobile Security Technologies
+  * Mobile Security Threats Analysis and Protection: AI and Knowledge Based Malicious Behavior Analysis
+  * Security, Usability and Reliability Analysis toward Cyber-security Technologies
+  * Human Factor Based Mobile Security Technologies: Anomaly Detection
+  * :new: IoT Security Threats Analysis and Protection 
 
 ## Recent News
   * (09/2021) :star: Our paper "IconChecker: Anomaly Detection of Icon-Behaviors for Android Apps" is accepted by APSEC 2021.
