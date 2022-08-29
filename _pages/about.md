@@ -8,12 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-Currently, I am a research fellow in Cyber Security Research Centre (CYSREN), Nanyang Technological University, Singapore. My PI is Prof. LIU Yang (2021-now).
+Currently, I am a senior research associate at University of New South Wales, Australia, and an adjunct researcher at Nanyang Technological University, Singapore.
 
 ## Working Experience
-* **Research Fellow** (Mar 2021 - Present).
-  School of Computer Science and Engineering, Nanyang Technological University, Singapore.
-* **Research Assistant** (Sep 2014 - Feb 2021).
+* **Senior Research Associate** (Jul 2022 - Present).
+  School of Computer Science and Engineering, University of New South Wales, Australia. My PI is [Prof. Sanjay Jha](https://research.unsw.edu.au/people/professor-sanjay-jha){:target="_blank"}.
+* **Research Fellow** (Mar 2021 - Jul 2022).
+  School of Computer Science and Engineering, Nanyang Technological University, Singapore. My PI was [Prof. LIU Yang](https://personal.ntu.edu.sg/yangliu/){:target="_blank"}.
+* **Research Assistant** (Sep 2014 - Mar 2021).
   School of Computer Science and Engineering, Nanyang Technological University, Singapore.
 
 ## Education
@@ -27,18 +29,18 @@ Currently, I am a research fellow in Cyber Security Research Centre (CYSREN), Na
 
 ## Research Interests
   * Mobile Security
+  * AI for Software Security
   * AI Security and Reliability
   * Human-Computer Interaction Security
   * :new: IoT Security
 
 ## Current Research
   * Mobile Security Threats Analysis and Protection: AI and Knowledge Based Malicious Behavior Analysis
-  * Security, Usability and Reliability Analysis toward Cyber-security Technologies
+  * Security, Usability and Reliability Analysis toward Cybersecurity Technologies
   * Human Factor Based Mobile Security Technologies: Anomaly Detection
-  * :new: IoT Security Threats Analysis and Protection 
+  * :new: IoT Security Threats Analysis and Protection
 
 ## Recent News
-  * (09/2021) :star: Our paper "IconChecker: Anomaly Detection of Icon-Behaviors for Android Apps" is accepted by APSEC 2021.
-  * (07/2021) Call For Paper : TDSC Special Issue on Reliability and Robustness in AI-Based Cybersecurity Solutions.
-  * (02/2021) :clap: Officially receive PhD degree from NTU.
-  * (01/2021) :couple_with_heart: Got married.
+  * (08/2022) :star: Our paper "TransRepair: Context-aware Program Repair for Compilation Errors" is accepted by ASE 2022.
+  * (07/2022) :star: Our paper "Deep Learning for Coverage-Guided Fuzzing: How Far Are We?" is accepted by TDSC.
+  * (07/2022) :star: Our paper "Enhancing Security Patch Identification by Capturing Structures in Commits" is accepted by TDSC 
