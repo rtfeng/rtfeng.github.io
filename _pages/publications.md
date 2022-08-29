@@ -8,7 +8,7 @@ author_profile: true
 You can also find my publications on [Google Scholar](https://scholar.google.com/citations?hl=en&user=ev-Zbf4AAAAJ){:target="_blank"}.
 
 ### 2022
-  * Xueyang Li, Shangqing Liu, Ruitao Feng, Guozhu Meng, Xiaofei Xie, Kai Chen, and Yang Liu. **TransRepair: Context-aware Program Repair for Compilation Errors.** In _Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering_.
+  * Xueyang Li, Shangqing Liu, **Ruitao Feng**, Guozhu Meng, Xiaofei Xie, Kai Chen, and Yang Liu. **TransRepair: Context-aware Program Repair for Compilation Errors.** In _Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering_.
   * Siqi Li, Xiaofei Xie, Yun Lin, Yuekang Li, **Ruitao Feng**, Xiaohong Li, Weimin Ge, and Jin Song Dong. **Deep Learning for Coverage-Guided Fuzzing: How Far Are We?** In _the IEEE Transactions on Dependable and Secure Computing_.
   * Bozhi Wu, Shangqing Liu, **Ruitao Feng**, Xiaofei Xie, Jingkai Siow, and Shang-Wei Lin. **Enhancing Security Patch Identification by Capturing Structures in Commits.** In _the IEEE Transactions on Dependable and Secure Computing_.
 
