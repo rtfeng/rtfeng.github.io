@@ -19,5 +19,3 @@ author_profile: true
 ## Teaching
 ### 2020-2022
 * Tutor for Software Engineering (CZ/CE2006@NTU)
-
-  Duty: Teaching, Raising questions, Organizing discussion, Answering questions.

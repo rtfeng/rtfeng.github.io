@@ -7,6 +7,9 @@ author_profile: true
 
 You can also find my publications on [Google Scholar](https://scholar.google.com/citations?hl=en&user=ev-Zbf4AAAAJ){:target="_blank"}.
 
+### 2023
+  *  Han Liu, Sen Chen, **Ruitao Feng**, Chengwei Liu, Kaixuan Li, Zhengzi Xu, Liming Nie, Yang Liu, Yixiang Chen. **A Comprehensive Study on Quality Assurance Tools for Java.** In _Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis_.
+
 ### 2022
   * Xueyang Li, Shangqing Liu, **Ruitao Feng**, Guozhu Meng, Xiaofei Xie, Kai Chen, and Yang Liu. **TransRepair: Context-aware Program Repair for Compilation Errors.** In _Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering_.
   * Siqi Li, Xiaofei Xie, Yun Lin, Yuekang Li, **Ruitao Feng**, Xiaohong Li, Weimin Ge, and Jin Song Dong. **Deep Learning for Coverage-Guided Fuzzing: How Far Are We?** In _the IEEE Transactions on Dependable and Secure Computing_.
