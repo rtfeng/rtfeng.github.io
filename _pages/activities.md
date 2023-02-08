@@ -16,7 +16,6 @@ author_profile: true
 * Program Committee Member of [The 18th International Conference on Information Security and Cryptology (Inscrypt 2022).](http://www.sklois.cn/inscrypt2022/){:target="_blank"}
 * Fast Abstract Chair of [The 28th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC 2023).](https://prdc.dependability.org/PRDC2023/index.html){:target="_blank"}
 
-
 [comment]: <> (* Reviewer, National Satellite of Excellence &#40;NSoE&#41;, 2021)
 
 ## Teaching
