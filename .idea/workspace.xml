@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bde59ba7-5631-47bf-b2d1-7ba6cab79fc6" name="Default Changelist" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/activities.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/activities.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/publications.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/publications.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,21 +102,9 @@
       <workItem from="1650611712540" duration="632000" />
       <workItem from="1651159268798" duration="2000" />
       <workItem from="1651159275292" duration="13000" />
-      <workItem from="1675834739086" duration="621000" />
-    </task>
-    <task id="LOCAL-00013" summary="Update publications.md">
-      <created>1600254774493</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1600254774493</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Disable sitemap and feed">
-      <created>1600255179854</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1600255179854</updated>
+      <workItem from="1675834739086" duration="657000" />
+      <workItem from="1675835491797" duration="10000" />
+      <workItem from="1675898488286" duration="61000" />
     </task>
     <task id="LOCAL-00015" summary="Add more about me">
       <created>1600255582730</created>
@@ -447,7 +435,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645379183713</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Update">
+      <created>1675835385281</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1675835385282</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Update">
+      <created>1675835397261</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1675835397262</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
