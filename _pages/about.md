@@ -12,9 +12,9 @@ Currently, I am a senior research associate at University of New South Wales, Au
 
 ## Working Experience
 * **Senior Research Associate** (Jul 2022 - Present).
-  School of Computer Science and Engineering, University of New South Wales, Australia. My PI is [Prof. Sanjay Jha](https://research.unsw.edu.au/people/professor-sanjay-jha){:target="_blank"}.
+  School of Computer Science and Engineering, University of New South Wales, Australia.
 * **Research Fellow** (Mar 2021 - Jul 2022).
-  School of Computer Science and Engineering, Nanyang Technological University, Singapore. My PI was [Prof. LIU Yang](https://personal.ntu.edu.sg/yangliu/){:target="_blank"}.
+  School of Computer Science and Engineering, Nanyang Technological University, Singapore.
 * **Research Assistant** (Sep 2014 - Mar 2021).
   School of Computer Science and Engineering, Nanyang Technological University, Singapore.
 
@@ -22,7 +22,7 @@ Currently, I am a senior research associate at University of New South Wales, Au
 * **Ph.D.** (Jan 2016 - Feb 2021).
   Thesis: _From market to device : adaptive and efficient malware detection for Android_.
   Supervisors: [Prof. LIU Yang](https://personal.ntu.edu.sg/yangliu/){:target="_blank"} and [Prof. LIN Shang-Wei](https://dr.ntu.edu.sg/cris/rp/rp00861){:target="_blank"}.
-  School of Computer Science and Engineering, Nanyang Technological University, Singapore
+  School of Computer Science and Engineering, Nanyang Technological University, Singapore.
 * **B.S.** (Jul 2010 - Jun 2014).
   Thesis: _Research of Complex Query Technology on Semantic Big Data_.
   School of Computing Science and Technology, Tianjin University, China.
