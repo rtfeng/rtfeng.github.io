@@ -8,7 +8,7 @@ author_profile: true
 ## Academic Service
 * Program Committee Member of [The 27th Asia-Pacific Software Engineering Conference (APSEC 2020).](https://formal-analysis.com/apsec/2020/){:target="_blank"}
 * Independent Reviewer, Dutch Research Council (NWO), 2021 
-* Guest Editor, IEEE Transactions on Dependable and Secure Computing, 2021-
+* Guest Editor, IEEE Transactions on Dependable and Secure Computing
 * Program Committee Member of [The 1st International Conference on Linking Software Engineering, Artifical Intelligence and Security (SEAIS 2022).](https://formal-analysis.com/seais/2022/){:target="_blank"}
 * Co-Chair of [The 2nd ICDM Machine Learning for Cybersecurity Workshop (MLC 2022).](https://ml4cyber.github.io/22/){:target="_blank"}
 * Co-Organizer of [AI Technology School with AISG.](https://aitechnologyschool.github.io/){:target="_blank"}
