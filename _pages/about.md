@@ -41,7 +41,3 @@ Currently, I am a Research Scientist at Singapore Management University, Singapo
 
 ## Recent News
   * (01/2023) :star: Our paper "A Comprehensive Study on Quality Assurance Tools for Java." is accepted by ISSTA 2023.
-  * (09/2022) :star: Our paper "Multi-label Classification for Android Malware Based on Active Learning." is accepted by TDSC.
-  * (08/2022) :star: Our paper "TransRepair: Context-aware Program Repair for Compilation Errors" is accepted by ASE 2022.
-  * (07/2022) :star: Our paper "Deep Learning for Coverage-Guided Fuzzing: How Far Are We?" is accepted by TDSC.
-  * (07/2022) :star: Our paper "Enhancing Security Patch Identification by Capturing Structures in Commits" is accepted by TDSC 
