@@ -8,10 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-Currently, I am a senior research associate at University of New South Wales, Australia, and an adjunct researcher at Nanyang Technological University, Singapore.
+Currently, I am a Research Scientist at Singapore Management University, Singapore, and an adjunct researcher at Nanyang Technological University, Singapore.
 
 ## Working Experience
-* **Senior Research Associate** (Jul 2022 - Present).
+* **Research Scientist** (Jul 2023 - Present).
+  School of Computing and Information Systems, Singapore Management University, Singapore.
+* **Senior Research Associate** (Jul 2022 - Jul 2023).
   School of Computer Science and Engineering, University of New South Wales, Australia.
 * **Research Fellow** (Mar 2021 - Jul 2022).
   School of Computer Science and Engineering, Nanyang Technological University, Singapore.
@@ -20,11 +22,8 @@ Currently, I am a senior research associate at University of New South Wales, Au
 
 ## Education
 * **Ph.D.** (Jan 2016 - Feb 2021).
-  Thesis: _From market to device : adaptive and efficient malware detection for Android_.
-  Supervisors: [Prof. LIU Yang](https://personal.ntu.edu.sg/yangliu/){:target="_blank"} and [Prof. LIN Shang-Wei](https://dr.ntu.edu.sg/cris/rp/rp00861){:target="_blank"}.
   School of Computer Science and Engineering, Nanyang Technological University, Singapore.
 * **B.S.** (Jul 2010 - Jun 2014).
-  Thesis: _Research of Complex Query Technology on Semantic Big Data_.
   School of Computing Science and Technology, Tianjin University, China.
 
 ## Research Interests
