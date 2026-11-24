@@ -26,6 +26,16 @@ jobs:
           python-version: "3.12"
       - name: Check page, anchors and PDFs
         run: python tools/check_site.py
+      # The pinned GoatCounter script must match the integrity hash in the pages,
+      # or browsers will refuse to run it and analytics would silently stop.
+      - name: Verify GoatCounter SRI
+        run: |
+          want=$(grep -o 'count.v5.js" crossorigin="anonymous" integrity="[^"]*' index.html | sed 's/.*integrity="//')
+          got="sha384-$(curl -fsSL https://gc.zgo.at/count.v5.js | openssl dgst -sha384 -binary | openssl base64 -A)"
+          echo "page: $want"
+          echo "live: $got"
+          [ "$want" = "$got" ] || { echo "::error::GoatCounter SRI mismatch"; exit 1; }
+          grep -qF "integrity=\"$want\"" 404.html || { echo "::error::404.html SRI differs from index.html"; exit 1; }
 
   deploy:
     if: github.event_name != 'pull_request'
