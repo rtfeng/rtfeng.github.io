@@ -47,6 +47,9 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+      # GitHub sometimes needs a moment before a fresh artifact is visible to the deploy step.
+      - name: Wait for artifact to register
+        run: sleep 10
       - id: deployment
         uses: actions/deploy-pages@v4
       # Tell IndexNow engines (Bing, Yandex, Naver, Seznam, ...) that the site changed.
