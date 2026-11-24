@@ -75,7 +75,7 @@
     if (!ball.scored && prevY < RIM.y && ball.y >= RIM.y && ball.vy > 0 && ball.x > RIM.x1 + 4 && ball.x < RIM.x2 - 4) {
       ball.scored = true; done = true;
       msg.textContent = shots === 1 ? "Swish! First shot. Taking you home…" : `Swish! Shot ${shots}. Taking you home…`;
-      try { localStorage.setItem("swish", "1"); } catch (e) {}
+      try { localStorage.setItem("swish", "swish@" + RIM.x1 + "-" + RIM.x2); } catch (e) {}
       setTimeout(() => { location.href = "/"; }, 1800);
     }
     if (ball.y > H + 60 || ball.x > W + 60 || ball.x < -60 || ball.t > 5) {

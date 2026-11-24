@@ -169,6 +169,11 @@
   .qb b{display:block;color:#5d7487;font-size:.86rem;margin-bottom:2px}
   .qb.got{border-color:#8fd3cf;color:#d4dee5}
   .qb.got b{color:#8fd3cf}
+  .loot{margin-top:14px;border:1px solid #f5d38a;border-radius:12px;padding:14px 16px;background:linear-gradient(135deg,#2b2410,#1c2c3a);color:#e8e1c8}
+  .loot h4{margin:0 0 6px;color:#f5d38a;font-family:"Press Start 2P",monospace;font-size:.85rem}
+  .loot p{margin:0 0 8px}
+  .loot .phrase code{background:#14202b;color:#f5d38a;padding:2px 6px;border-radius:6px}
+  .loot .equip{margin-top:4px;background:#f5d38a;color:#2b2410;border:0;border-radius:999px;padding:7px 14px;font-weight:600;cursor:pointer}
   #toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%) translateY(20px);opacity:0;pointer-events:none;z-index:60;
     background:#14202b;color:#f5d38a;border:1px solid #2c4152;border-radius:999px;padding:9px 18px;font-size:.9rem;transition:opacity .25s,transform .25s}
   #toast.show{opacity:1;transform:translateX(-50%) translateY(0);pointer-events:auto}
@@ -405,6 +410,7 @@
       <h3>Side quests</h3>
       <div class="count" id="qCount"></div>
       <div class="qgrid" id="qGrid"></div>
+      <div class="loot" id="qLoot" hidden></div>
     </div>
     <a class="back" href="#guide">← back to the serious stuff</a>
   </section>
@@ -1165,9 +1171,12 @@
     ["owl",    "Night owl",      "Visit after 11 pm, your time."],
     ["hoop",   "Swish",          "Get lost. On purpose."]
   ];
-  const QKEY = "sidequests";
-  let found = new Set();
-  try { found = new Set(JSON.parse(localStorage.getItem(QKEY) || "[]")); } catch {}
+  /* Each quest leaves a fragment, made from what the visitor actually did.
+     All eight fragments together are the key to the encrypted reward (LOOT). */
+  const QKEY = "sidequests2";
+  let frags = {};
+  try { frags = JSON.parse(localStorage.getItem(QKEY) || "{}") || {}; } catch {}
+  let found = new Set(Object.keys(frags));
   const toast = $("toast"); let toastT;
   function renderQuests() {
     const g = $("qGrid"); if (!g) return; g.textContent = "";
@@ -1178,17 +1187,48 @@
     });
     $("qCount").textContent = `${[...found].filter(x => QUESTS.some(q => q[0] === x)).length} / ${QUESTS.length} found`;
   }
-  function award(id) {
+  function award(id, frag) {
     if (found.has(id)) return;
     track("quest/" + id);
-    found.add(id); try { localStorage.setItem(QKEY, JSON.stringify([...found])); } catch {}
+    frags[id] = String(frag); found.add(id);
+    try { localStorage.setItem(QKEY, JSON.stringify(frags)); } catch {}
     renderQuests();
     const q = QUESTS.find(x => x[0] === id); if (!q) return;
+    if (found.size === QUESTS.length) { openLoot(true); return; }
     toast.textContent = `Side quest found: ${q[1]} (${found.size}/${QUESTS.length})`;
     const a = el("a", null, "See all"); a.href = "#after-hours"; toast.appendChild(a);
     toast.classList.add("show"); clearTimeout(toastT); toastT = setTimeout(() => toast.classList.remove("show"), 4500);
   }
+  /* The reward is AES-GCM ciphertext. Its plaintext is not in this file or in the repository. */
+  const LOOT = "PhBuGEpCvZqKj+miv2V6i9Y95xYDY3iI5w9LNKS2I9Pn12CyAfTtBN6Qa345zFLVv0IIbjXjyOQy92B6OHimFdt6p9SBdV9FBRELKe2QtQS7u0xeKgIwoWOWjsGpgC9AwT2Qg92lt/2AJf9SMlOX8KFz94U2mETR0rdfFcYkXh+pjSLS+jAw7Dfo+PrgUmzOzr10ld80gpBSblYuNg46c32ILV9fDNLqlRYbT5avTAvuVQWXPRBEGer2sIIXiDsBNWvq0/+nIRYDK0cUAZV+LKoxZPvHqPrATnOvkQZ2IxLVAIUYnvLiOZCE7DzEXQEqATqbFaltiRJ/E+PVyOBIhJZ4oQoo8ZryiBXfAkcMVIMDv9K0rgJA+dV2qrlF5vfsFci6E75eSTwhKSoN2UM1y8yk93zvhnHGZb36Ft8tP3bZ7MR+Bn+kpUaqnj1XWLLcGbRcRZ5uPmaGSOdyczWd39mLF9RS2wUV1kG7CIaQQuA5iW+Ibl9HonuMkLuYHYGqCEmnlNtq7/z37jpucUJmCZfIvkXb73334oi1yLRvceBEpFtOPmKgMTryCIjcMVkQvAT+CYM=";
+  let loot = null, goldOn = false;
+  async function openLoot(fresh) {
+    if (loot || found.size !== QUESTS.length || !(window.crypto && crypto.subtle)) return;
+    try {
+      const material = QUESTS.map(q => frags[q[0]]).join("|");
+      const kb = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(material));
+      const key = await crypto.subtle.importKey("raw", kb, "AES-GCM", false, ["decrypt"]);
+      const raw = Uint8Array.from(atob(LOOT), c => c.charCodeAt(0));
+      const pt = await crypto.subtle.decrypt({ name: "AES-GCM", iv: raw.slice(0, 12) }, key, raw.slice(12));
+      loot = JSON.parse(new TextDecoder().decode(pt));
+    } catch { return; }
+    const box = $("qLoot"); box.textContent = ""; box.hidden = false;
+    box.appendChild(el("h4", null, loot.title));
+    loot.lines.forEach(t => box.appendChild(el("p", null, t)));
+    const ph = el("p", "phrase"); ph.append("Subject line starts with ", el("code", null, loot.phrase)); box.appendChild(ph);
+    const btn = el("button", "equip", "Equip the " + loot.skinName);
+    btn.type = "button";
+    btn.addEventListener("click", () => { goldOn = true; setBear(true); track("quest/loot-equipped"); btn.textContent = "Equipped. Type /human to take it off."; });
+    box.appendChild(btn);
+    if (fresh) {
+      track("quest/all");
+      toast.textContent = `All ${QUESTS.length} side quests found. Your reward is waiting.`;
+      const a = el("a", null, "Claim it"); a.href = "#after-hours"; toast.appendChild(a);
+      toast.classList.add("show"); clearTimeout(toastT); toastT = setTimeout(() => toast.classList.remove("show"), 8000);
+    }
+  }
   renderQuests();
+  openLoot(false);
 
   /* CTF step 1 lives in the console */
   try {
@@ -1203,7 +1243,7 @@
     if (h >= 23 || h < 5) {
       const sub = document.querySelector("#guide .sub");
       if (sub) sub.textContent = "Up late? Me too, probably reviewing. Pick a question or type your own.";
-      award("owl");
+      award("owl", "23-5");
     }
   })();
 
@@ -1212,7 +1252,8 @@
   const avImg = document.querySelector(".avatar img"), avSrc = avImg && avImg.src, avAlt = avImg && avImg.alt;
   function setBear(on) {
     document.body.classList.toggle("bear", on);
-    if (avImg) { avImg.src = on ? "assets/bear.svg" : avSrc; avImg.alt = on ? "Bear form: an armoured circuit-board bear with glowing eyes, bared fangs and a crescent-moon shield" : avAlt; }
+    if (!on) goldOn = false;
+    if (avImg) { avImg.src = on ? (goldOn && loot ? loot.skin : "assets/bear.svg") : avSrc; avImg.alt = on ? "Bear form: an armoured circuit-board bear with glowing eyes, bared fangs and a crescent-moon shield" : avAlt; }
     if (navContact) navContact.textContent = on ? "Taunt" : "Contact";
   }
 
@@ -1281,7 +1322,7 @@
     // shell mode stays on until `exit`
     if (termOn || SHELL_START.test(r)) {
       const cmd = r.replace(/^~?\$\s*/, "");
-      if (!termOn) { termOn = true; termLog.length = 0; award("term"); if (/^(bash|sh|>_?)$/.test(cmd)) { termLog.push(["", "Welcome to the guide shell. Type help. Type exit to leave."]); showTerm(); return true; } }
+      if (!termOn) { termOn = true; termLog.length = 0; award("term", shell("id").split(" ")[0]); if (/^(bash|sh|>_?)$/.test(cmd)) { termLog.push(["", "Welcome to the guide shell. Type help. Type exit to leave."]); showTerm(); return true; } }
       if (cmd === "clear") { termLog.length = 0; showTerm(); return true; }
       const out = shell(cmd);
       if (out === null) { termOn = false; result.className = "result"; result.textContent = ""; result.appendChild(el("p", "ans", "Logged out. Back to the guide.")); return true; }
@@ -1289,14 +1330,14 @@
     }
     result.className = "result";
     if (INJECT.some(re => re.test(r))) {
-      award("inject");
+      award("inject", INJECT.length + "rx");
       result.textContent = "";
       result.appendChild(el("p", "ans", "Nice try. There is no language model behind this box, so there is nothing to inject. What you type can only pick one of a few pre-written answers. That was the point."));
       const a = link("design"); if (a) result.appendChild(a);
       return true;
     }
     if (/^\/?(bear|bear form|shapeshift|shift|变熊|熊形态)$/.test(r)) {
-      award("bear"); setBear(true); result.textContent = "";
+      award("bear", "armor+" + 90 * 2); setBear(true); result.textContent = "";
       result.appendChild(el("p", "ans", "You shift into Bear Form. Armor +180%. Threat generation increased. Type /human to shift back."));
       return true;
     }
@@ -1305,7 +1346,7 @@
       setBear(false); result.textContent = ""; result.appendChild(el("p", "ans", "Back in caster form.")); return true;
     }
     if (/reviewer\s*(#|no\.?\s*|number\s*)?(2|two)\b|第?二(号)?审稿人|审稿人\s*(2|二)/.test(r)) {
-      award("r2"); result.className = "result r2"; result.textContent = "";
+      award("r2", R2[R2.length - 1].split(" ").pop()); result.className = "result r2"; result.textContent = "";
       result.appendChild(el("p", "ans", "Reviewer 2 writes:"));
       result.appendChild(el("p", "ans quote", R2[r2i++ % R2.length]));
       result.appendChild(el("p", "ans more", "Ask again for another opinion. It will not be kinder."));
@@ -1314,7 +1355,7 @@
     if (/flag\s*\{/.test(r)) {
       result.textContent = "";
       if (r.replace(/\s+/g, "") === FLAG) {
-        award("ctf"); result.className = "result flag";
+        award("ctf", r.replace(/\s+/g, "")); result.className = "result flag";
         result.appendChild(el("p", "ans", "You found the flag. Well hunted."));
         result.appendChild(el("p", "ans", "If you are thinking about a research degree with me, email me at ruitao.feng@scu.edu.au with the subject line \"Flag found\" and tell me which step took you longest. I read those first."));
         const a = link("email") || link("contact"); if (a) result.appendChild(a);
@@ -1435,12 +1476,12 @@
     const b = el("button", null, c); b.type = "button";
     b.addEventListener("click", () => {
       if (box.dataset.done) return;
-      if (c === "Druid") { b.classList.add("ok"); box.dataset.done = "1"; award("druid"); verdict.textContent = tries === 0 ? "First try! Druid it is. Bear form, tanking." : "Druid! Got it in " + (tries + 1) + " tries. Bear form, tanking."; }
+      if (c === "Druid") { b.classList.add("ok"); box.dataset.done = "1"; award("druid", c + "/bear"); verdict.textContent = tries === 0 ? "First try! Druid it is. Bear form, tanking." : "Druid! Got it in " + (tries + 1) + " tries. Bear form, tanking."; }
       else { b.classList.add("no"); b.disabled = true; verdict.textContent = HINTS[Math.min(tries, HINTS.length - 1)]; tries++; }
     });
     box.appendChild(b);
   });
-  try { if (localStorage.getItem("swish")) { localStorage.removeItem("swish"); award("hoop"); } } catch {}
+  try { const sw = localStorage.getItem("swish"); if (sw) { localStorage.removeItem("swish"); if (sw.startsWith("swish@")) award("hoop", sw); } } catch {}
   if (location.hash === "#after-hours") unlockEgg();
   window.addEventListener("hashchange", () => { if (location.hash === "#after-hours") unlockEgg(); });
 })();
