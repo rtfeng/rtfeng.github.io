@@ -190,6 +190,19 @@
   #toast a{color:#8fd3cf;margin-left:10px}
   @media (max-width:640px){.qgrid{grid-template-columns:1fr 1fr}}
   @media (prefers-reduced-motion:reduce){#toast{transition:none}}
+  /* Students: a sub-page view inside the same file (#students) */
+  #students h2{border:0;margin-top:8px;padding-top:0}
+  #students .intro{color:var(--ink-2);max-width:62ch}
+  #students h3{font-size:1rem;margin:28px 0 8px;color:var(--accent)}
+  .st{display:grid;grid-template-columns:minmax(160px,220px) 1fr;gap:4px 20px;padding:12px 0;border-top:1px solid var(--line)}
+  .st .nm{font-weight:600}
+  .st .meta{color:var(--ink-2);font-size:.88rem}
+  .st .tp{margin:0}
+  .st .co{color:var(--ink-2);font-size:.88rem;margin-top:2px}
+  .back-home{display:inline-block;margin:8px 0 4px;font-size:.92rem}
+  body.view-students .wrap > *:not(#students){display:none}
+  body.view-students #sidenav{display:none}
+  @media (max-width:640px){.st{grid-template-columns:1fr}}
   #after-hours .back{display:inline-block;margin-top:16px;color:#8fd3cf;font-size:.9rem}
   .cvbtn{font:600 .85rem Inter,sans-serif;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:4px 12px;cursor:pointer}
   #cv{position:fixed;inset:0;background:rgba(20,32,43,.55);display:none;z-index:50;overflow:auto;padding:24px 12px}
@@ -329,6 +342,7 @@
           <li>Security and AI for energy or veterinary science</li>
         </ul>
         <p class="do">Email me your CV, transcript and a one-page idea.</p>
+        <p class="meet" hidden><a href="#students">Meet the students I supervise now</a></p>
       </div>
       <div class="door" id="work-coursework">
         <h3>SCU students</h3>
@@ -401,6 +415,13 @@
   </section>
 
   <!-- ===================== Easter egg (hidden until found) ===================== -->
+  <section id="students" hidden aria-label="Students">
+    <a class="back-home" href="#work">← Back to the homepage</a>
+    <h2>Students</h2>
+    <p class="intro">Research students I currently supervise or co-supervise at Southern Cross University.</p>
+    <div id="stList"></div>
+  </section>
+
   <section id="after-hours" hidden>
     <h2>&gt; AFTER HOURS_</h2>
     <div class="sub">You found the side quest. Outside family commitments and academic overtime, this is where you will find me.</div>
@@ -821,6 +842,38 @@
      GUIDE: whitelisted destinations + pre-written answers
      ========================================================= */
   const ALLOWED_HOSTS = new Set(["github.com", "scholar.google.com", "orcid.org", "researchportal.scu.edu.au", "ml4cyber.github.io"]);
+  /* Students shown on #students. Only list people who agreed to be listed.
+     status: "current" or "alumni"; now: where an alumnus went. url, cosup and now are optional. */
+  const STUDENTS = [
+    // { name: "Full Name", url: "https://...", degree: "PhD", since: 2025, topic: "One line, 15 words max.", cosup: "Prof X", status: "current" },
+  ];
+  const DEGREE_ORDER = ["PhD", "MRes", "Masters", "Honours"];
+  function renderStudents() {
+    const box = $("stList"); if (!box) return; box.textContent = "";
+    const groups = [["Current students", STUDENTS.filter(x => x.status !== "alumni")], ["Alumni", STUDENTS.filter(x => x.status === "alumni")]];
+    for (const [title, list] of groups) {
+      if (!list.length) continue;
+      box.appendChild(el("h3", null, title));
+      list.slice().sort((a, b) => (DEGREE_ORDER.indexOf(a.degree) - DEGREE_ORDER.indexOf(b.degree)) || (a.since - b.since) || a.name.localeCompare(b.name))
+        .forEach(x => {
+          const row = el("div", "st"), left = el("div"), right = el("div");
+          const nm = el("div", "nm");
+          const href = x.url ? safeHref(x.url) : null;
+          if (href) { const a = el("a", null, x.name); a.href = href; a.rel = "noopener noreferrer"; a.target = "_blank"; nm.appendChild(a); }
+          else nm.textContent = x.name;
+          left.append(nm, el("div", "meta", `${x.degree}, since ${x.since}` + (x.status === "alumni" && x.now ? ` · now ${x.now}` : "")));
+          right.appendChild(el("p", "tp", x.topic));
+          if (x.cosup) right.appendChild(el("div", "co", "Co-supervised with " + x.cosup));
+          row.append(left, right); box.appendChild(row);
+        });
+    }
+  }
+  function showStudents(on) {
+    const sec = $("students"); if (!sec) return;
+    sec.hidden = !on; document.body.classList.toggle("view-students", on);
+    if (on) { window.scrollTo(0, 0); track("view/students"); }
+  }
+
   const DEST = {
     about:      { label: "About me", href: "#about" },
     now:        { label: "My research directions", href: "#now" },
@@ -843,6 +896,7 @@
     contact:    { label: "How to contact me", href: "#contact" },
     cv:         { label: "Generate my CV (button at the top)", href: "#top" },
     egg:        { label: "Unlock: After hours", href: "#after-hours" },
+    team:       { label: "Current students", href: "#students" },
     design:     { label: "How the guide is built", href: "https://github.com/rtfeng/rtfeng.github.io#security-design" }
   };
   const INTENTS = {
@@ -992,6 +1046,11 @@
   delete INTENTS.events;
   INTENTS.egg.kw = INTENTS.egg.kw.filter(k => k !== "favourite" && k !== "favorite");
   INTENTS.egg.kw.push("what do you like", "do you like", "outside work", "after hours", "after-hours", "side quest");
+  if (STUDENTS.length) INTENTS.team = {
+    ans: `I currently supervise ${STUDENTS.filter(x => x.status !== "alumni").length} research students. Their names and topics are on the students page.`,
+    dest: ["team", "students"],
+    kw: ["your students", "current students", "phd students", "who do you supervise", "supervise", "lab", "group", "team", "members", "学生", "课题组", "团队", "实验室"],
+    ex: ["who are your students", "who do you supervise", "your research group", "lab members", "你带哪些学生", "你的课题组有谁"] };
   Object.assign(INTENTS, {
     vuln: { ans: "I work on finding and confirming software vulnerabilities: reachability analysis, decompilation, fuzzing, static analysis tools and learning-based detectors.",
       dest: ["pubsVuln", "analytics"], kw: ["vulnerab", "fuzz", "afl", "static analysis", "sast", "program analysis", "taint", "decompil", "binary", "cve", "bug", "漏洞", "模糊测试", "静态分析", "程序分析", "反编译"],
@@ -1500,7 +1559,15 @@
   });
   try { const sw = localStorage.getItem("swish"); if (sw) { localStorage.removeItem("swish"); if (sw.startsWith("swish@")) award("hoop", sw); } } catch {}
   if (location.hash === "#after-hours") unlockEgg();
-  window.addEventListener("hashchange", () => { if (location.hash === "#after-hours") unlockEgg(); });
+  window.addEventListener("hashchange", () => {
+    if (location.hash === "#after-hours") unlockEgg();
+    const wasOn = document.body.classList.contains("view-students");
+    showStudents(location.hash === "#students" && STUDENTS.length > 0);
+    if (wasOn && location.hash === "#work") { const w = $("work"); if (w) requestAnimationFrame(() => w.scrollIntoView({ behavior: "instant", block: "start" })); }
+  });
+  renderStudents();
+  if (STUDENTS.length) document.querySelectorAll(".meet").forEach(n => n.hidden = false);
+  if (location.hash === "#students") showStudents(STUDENTS.length > 0);
 })();
 </script>
 <!-- Anonymous, cookie-free visit counts. Only the owner can see the dashboard. -->
