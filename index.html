@@ -857,10 +857,12 @@
     { name: "Anbin Wu",     degree: "Part-time PhD", school: "TJU", pubs: ["TOSEM"], status: "current" },
     { name: "Qin Wang",     degree: "MRes",          school: "SCU", pubs: [], status: "current" }
   ];
+  /* Listing rule: SCU students always; students elsewhere once they have a first-author paper. */
+  const LISTED = STUDENTS.filter(x => x.school === "SCU" || (x.pubs || []).length > 0);
   const degreeRank = d => /phd/i.test(d) ? 0 : /mres|master/i.test(d) ? 1 : 2;
   function renderStudents() {
     const box = $("stList"); if (!box) return; box.textContent = "";
-    const groups = [["Current students", STUDENTS.filter(x => x.status !== "alumni")], ["Alumni", STUDENTS.filter(x => x.status === "alumni")]];
+    const groups = [["Current students", LISTED.filter(x => x.status !== "alumni")], ["Alumni", LISTED.filter(x => x.status === "alumni")]];
     for (const [title, list] of groups) {
       if (!list.length) continue;
       box.appendChild(el("h3", null, title));
@@ -1061,8 +1063,8 @@
   delete INTENTS.events;
   INTENTS.egg.kw = INTENTS.egg.kw.filter(k => k !== "favourite" && k !== "favorite");
   INTENTS.egg.kw.push("what do you like", "do you like", "outside work", "after hours", "after-hours", "side quest");
-  if (STUDENTS.length) INTENTS.team = {
-    ans: `I currently supervise or co-supervise ${STUDENTS.filter(x => x.status !== "alumni").length} research students at SCU and partner universities. See who they are on the students page.`,
+  if (LISTED.length) INTENTS.team = {
+    ans: `I currently supervise or co-supervise ${LISTED.filter(x => x.status !== "alumni").length} research students at SCU and partner universities. See who they are on the students page.`,
     dest: ["team", "students"],
     kw: ["your students", "current students", "phd students", "who do you supervise", "supervise", "lab", "group", "team", "members", "学生", "课题组", "团队", "实验室"],
     ex: ["who are your students", "who do you supervise", "your research group", "lab members", "你带哪些学生", "你的课题组有谁"] };
@@ -1577,12 +1579,12 @@
   window.addEventListener("hashchange", () => {
     if (location.hash === "#after-hours") unlockEgg();
     const wasOn = document.body.classList.contains("view-students");
-    showStudents(location.hash === "#students" && STUDENTS.length > 0);
+    showStudents(location.hash === "#students" && LISTED.length > 0);
     if (wasOn && location.hash === "#work") { const w = $("work"); if (w) requestAnimationFrame(() => w.scrollIntoView({ behavior: "instant", block: "start" })); }
   });
   renderStudents();
-  if (STUDENTS.length) document.querySelectorAll(".meet").forEach(n => n.hidden = false);
-  if (location.hash === "#students") showStudents(STUDENTS.length > 0);
+  if (LISTED.length) document.querySelectorAll(".meet").forEach(n => n.hidden = false);
+  if (location.hash === "#students") showStudents(LISTED.length > 0);
 })();
 </script>
 <!-- Anonymous, cookie-free visit counts. Only the owner can see the dashboard. -->
