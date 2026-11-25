@@ -9,7 +9,7 @@
   <img alt="Hosting" src="https://img.shields.io/badge/hosting-GitHub%20Pages-3a9a92.svg">
 </p>
 
-**Wayfinder** is a template for an academic homepage in one static HTML file, laid out in the classic Jon Barron style. There is no framework, no build step and no server. Apart from web fonts and an optional, cookie-free visit counter, the page makes no network requests.
+**Wayfinder** is a template for an academic homepage in one static HTML file, laid out in the classic Jon Barron style. There is no framework, no build step and no server. Fonts are self-hosted, so apart from an optional, cookie-free visit counter the page makes no third-party requests.
 
 Its main feature is the **Ask the guide** box. Visitors type a question or a few keywords, and the guide points them to the right section or to an approved external link. It does this without a language model, so there is nothing to prompt-inject.
 
@@ -28,6 +28,7 @@ You are welcome to fork it and build your own site. Everything in `index.html` a
 - [Make it yours](#make-it-yours)
 - [Deploy to GitHub Pages](#deploy-to-github-pages)
 - [Custom domain](#custom-domain)
+- [Contact address](#contact-address)
 - [Analytics (optional)](#analytics-optional)
 - [Checks and CI](#checks-and-ci)
 - [License](#license)
@@ -90,6 +91,7 @@ The box accepts free text from anyone, so it is locked down:
 ├── papers/                    # local PDFs, one per paper (<KEY>.pdf)
 ├── assets/
 │   ├── avatar.webp            # portrait (also inlined in index.html)
+│   ├── fonts/                 # self-hosted woff2 fonts (SIL OFL 1.1) and their licences
 │   ├── banner.svg             # README banner
 │   └── layout.svg             # README layout sketch
 ├── tools/
@@ -149,6 +151,10 @@ The workflow in `.github/workflows/deploy.yml` deploys on every push to `main`. 
    - **Apex domain** (`example.com`): add `A` records for `185.199.108.153`, `185.199.109.153`, `185.199.110.153` and `185.199.111.153`. Optionally add `AAAA` records for IPv6.
 3. In Settings → Pages → Custom domain, enter the same domain. Tick **Enforce HTTPS** once the certificate is ready.
 
+## Contact address
+
+The email address never appears whole in the page source. `EMAIL` is assembled at runtime, and elements marked `class="email" data-u="…" data-d="…"` are filled with a `mailto:` link. Without JavaScript they show `user [at] domain`. This keeps simple scrapers away while people see a normal link. `security.txt` keeps the plain address, because the standard requires it.
+
 ## Analytics (optional)
 
 The site can count visits with [GoatCounter](https://www.goatcounter.com), which is cookie-free and free for personal sites. The dashboard is private to the account owner.
@@ -185,5 +191,7 @@ The text a visitor types is never sent.
 The **code** (HTML structure, CSS, JavaScript, the workflow and tools) is MIT licensed. See [LICENSE](LICENSE).
 
 The **content** is not covered by the MIT licence. This means the text of the site, the portrait, and the papers in `papers/`. The papers remain under their publishers' or authors' terms. Please replace all of it with your own.
+
+The fonts in `assets/fonts/` (Source Serif 4, Inter, Press Start 2P) are under the SIL Open Font License 1.1, with licences alongside them, taken from [Fontsource](https://fontsource.org).
 
 The inlined [MiniSearch](https://github.com/lucaong/minisearch) library is © Luca Ongaro, MIT License.

@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Security: inline scripts plus the GoatCounter counter; the only network request is the anonymous visit count. -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob: https://rtfeng.goatcounter.com; connect-src https://rtfeng.goatcounter.com; worker-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: blob: https://rtfeng.goatcounter.com; connect-src https://rtfeng.goatcounter.com; worker-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Ruitao Feng · Cybersecurity, Southern Cross University</title>
 <meta name="description" content="Ruitao Feng, Lecturer in Cybersecurity at Southern Cross University. Post-detection security analytics, AI agent security, data privacy and vulnerability discovery.">
@@ -20,16 +20,26 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Person","name":"Ruitao Feng",
  "url":"https://rtfeng.github.io/","image":"https://rtfeng.github.io/assets/avatar.webp",
- "jobTitle":"Lecturer in Cybersecurity","email":"mailto:ruitao.feng@scu.edu.au",
+ "jobTitle":"Lecturer in Cybersecurity",
  "affiliation":{"@type":"CollegeOrUniversity","name":"Southern Cross University","url":"https://www.scu.edu.au/"},
  "knowsAbout":["Cybersecurity","Security analytics","AI agent security","Data privacy","Vulnerability discovery"],
  "sameAs":["https://scholar.google.com/citations?user=ev-Zbf4AAAAJ","https://orcid.org/0000-0001-9080-6865","https://researchportal.scu.edu.au/esploro/profile/ruitao_feng","https://github.com/rtfeng"]}
 </script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%230f5e63%27/%3E%3Ctext x=%2732%27 y=%2743%27 font-family=%27Georgia,serif%27 font-size=%2730%27 font-weight=%27700%27 fill=%27white%27 text-anchor=%27middle%27%3ERF%3C/text%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="preload" href="assets/fonts/source-serif-4-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <style>
+  /* Self-hosted fonts (SIL OFL 1.1, via Fontsource): no request to Google. */
+  @font-face{font-family:'Source Serif 4';font-style:normal;font-display:swap;font-weight:200 900;src:url(assets/fonts/source-serif-4-latin-ext-opsz-normal.woff2) format('woff2-variations');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}
+  @font-face{font-family:'Source Serif 4';font-style:normal;font-display:swap;font-weight:200 900;src:url(assets/fonts/source-serif-4-latin-opsz-normal.woff2) format('woff2-variations');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  @font-face{font-family:'Inter';font-style:normal;font-display:swap;font-weight:400;src:url(assets/fonts/inter-latin-ext-400-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+  @font-face{font-family:'Inter';font-style:normal;font-display:swap;font-weight:400;src:url(assets/fonts/inter-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  @font-face{font-family:'Inter';font-style:normal;font-display:swap;font-weight:500;src:url(assets/fonts/inter-latin-ext-500-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+  @font-face{font-family:'Inter';font-style:normal;font-display:swap;font-weight:500;src:url(assets/fonts/inter-latin-500-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  @font-face{font-family:'Inter';font-style:normal;font-display:swap;font-weight:600;src:url(assets/fonts/inter-latin-ext-600-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+  @font-face{font-family:'Inter';font-style:normal;font-display:swap;font-weight:600;src:url(assets/fonts/inter-latin-600-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  @font-face{font-family:'Press Start 2P';font-style:normal;font-display:swap;font-weight:400;src:url(assets/fonts/press-start-2p-latin-ext-400-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+  @font-face{font-family:'Press Start 2P';font-style:normal;font-display:swap;font-weight:400;src:url(assets/fonts/press-start-2p-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
   :root{--ink:#17212b;--ink-2:#3a4754;--line:#e3e7eb;--bg:#fbfbf9;--card:#fff;--accent:#0f5e63;--accent-2:#e8f2f1}
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
@@ -231,7 +241,7 @@
       <h1>Ruitao Feng</h1>
       <p class="role">Lecturer in Cybersecurity · Faculty of Science and Engineering<br>Southern Cross University, Gold Coast, Australia</p>
       <div class="links">
-        <span class="email">ruitao.feng@scu.edu.au</span>
+        <span class="email" data-u="ruitao.feng" data-d="scu.edu.au">ruitao.feng [at] scu.edu.au</span>
         <a href="https://orcid.org/0000-0001-9080-6865" rel="noopener noreferrer">ORCID</a>
         <a href="https://researchportal.scu.edu.au/esploro/profile/ruitao_feng" rel="noopener noreferrer">SCU Research Portal</a>
         <a href="https://scholar.google.com/citations?user=ev-Zbf4AAAAJ" rel="noopener noreferrer">Google Scholar</a>
@@ -380,7 +390,7 @@
   <!-- ===================== Contact ===================== -->
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email is best: <span class="email">ruitao.feng@scu.edu.au</span></p>
+    <p>Email is best: <span class="email" data-u="ruitao.feng" data-d="scu.edu.au">ruitao.feng [at] scu.edu.au</span></p>
     <table class="contact">
       <tr><td>Subject line</td><td>Start with who you are: "PhD enquiry", "Collaboration", "Industry", "Unit question".</td></tr>
       <tr><td>Research students</td><td>Attach CV, transcript and a one-page idea.</td></tr>
@@ -436,6 +446,13 @@
 <script>
 (() => {
   "use strict";
+  /* The address is assembled at runtime so it never appears whole in the page source (keeps scrapers off it). */
+  const EMAIL = ["ruitao.feng", "scu.edu.au"].join("\u0040");
+  document.querySelectorAll(".email[data-u]").forEach(n => {
+    const a = document.createElement("a");
+    a.href = "mailto:" + n.dataset.u + "\u0040" + n.dataset.d; a.textContent = n.dataset.u + "\u0040" + n.dataset.d;
+    n.textContent = ""; n.appendChild(a);
+  });
   const $ = id => document.getElementById(id);
   const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
   /* Anonymous event counts (GoatCounter). Only a category path is sent, never what a visitor types. */
@@ -862,7 +879,7 @@
       dest: ["cv", "pubs"],
       kw: ["cv", "resume", "résumé", "curriculum", "vitae", "bio sketch", "简历", "履历"],
       ex: ["can I get your CV", "download your resume", "curriculum vitae"] },
-    contact: { ans: "Email is best: ruitao.feng@scu.edu.au. Start the subject with who you are, for example \"PhD enquiry\" or \"Industry\".",
+    contact: { ans: "Email is best: " + EMAIL + ". Start the subject with who you are, for example \"PhD enquiry\" or \"Industry\".",
       dest: ["contact"],
       kw: ["email", "contact", "reach", "office", "address", "meet", "get in touch", "write to", "邮箱", "联系", "邮件", "地址", "见面", "办公室"],
       ex: ["how can I contact you", "what is your email", "how to get in touch", "where is your office", "怎么联系你", "你的邮箱是什么"] },
@@ -1006,7 +1023,7 @@
     profiles: { ans: "You can find my full publication record on Google Scholar, ORCID and the SCU Research Portal.",
       dest: ["scholar", "orcid", "portal"], kw: ["google scholar", "scholar", "orcid", "research portal", "dblp", "citations", "h-index", "profile link"],
       ex: ["your google scholar", "orcid id", "citation count"] },
-    notHere: { ans: "That information is not on this page. Please email me directly at ruitao.feng@scu.edu.au and I will get back to you.",
+    notHere: { ans: "That information is not on this page. Please email me directly at " + EMAIL + " and I will get back to you.",
       dest: ["contact"], kw: ["phone", "telephone", "mobile number", "call you", "wechat", "whatsapp", "linkedin", "github", "twitter", "salary", "pay", "fee", "fees", "tuition", "price", "cost", "office hours", "consultation hours", "home address", "timetable", "exam date", "电话", "手机", "微信", "领英", "工资", "薪水", "学费", "费用", "办公时间", "课表", "考试时间"],
       ex: ["what is your phone number", "do you have wechat", "what are your office hours", "how much are the tuition fees", "your github"] }
   });
@@ -1120,7 +1137,7 @@
       return;
     }
     if (!id || !INTENTS[id]) {
-      result.appendChild(el("p", "ans", "I could not find that on this page. Please email me directly at ruitao.feng@scu.edu.au, or start here:"));
+      result.appendChild(el("p", "ans", "I could not find that on this page. Please email me directly at " + EMAIL + ", or start here:"));
       ["contact", "now", "pubs", "teaching"].forEach(k => { const a = link(k); if (a) result.appendChild(a); });
       return;
     }
@@ -1357,7 +1374,7 @@
       if (r.replace(/\s+/g, "") === FLAG) {
         award("ctf", r.replace(/\s+/g, "")); result.className = "result flag";
         result.appendChild(el("p", "ans", "You found the flag. Well hunted."));
-        result.appendChild(el("p", "ans", "If you are thinking about a research degree with me, email me at ruitao.feng@scu.edu.au with the subject line \"Flag found\" and tell me which step took you longest. I read those first."));
+        result.appendChild(el("p", "ans", "If you are thinking about a research degree with me, email me at " + EMAIL + " with the subject line \"Flag found\" and tell me which step took you longest. I read those first."));
         const a = link("email") || link("contact"); if (a) result.appendChild(a);
       } else result.appendChild(el("p", "ans", "That is not the flag. Close, maybe. Keep hunting."));
       return true;
@@ -1386,7 +1403,7 @@
   const CV = {
     name: "Ruitao Feng, PhD",
     title: "Lecturer in Cybersecurity, Faculty of Science and Engineering, Southern Cross University",
-    contact: "ruitao.feng@scu.edu.au · Gold Coast, QLD, Australia · ORCID 0000-0001-9080-6865",
+    contact: EMAIL + " · Gold Coast, QLD, Australia · ORCID 0000-0001-9080-6865",
     summary: "I work on security that people can trust and actually use. My main line automates post-detection security analytics with human-machine synergy: explaining deep learning detectors, turning their insights into rules that legacy tools can run, and triaging alerts and vulnerability reports. I also study the security of AI agents, privacy-preserving data sharing and vulnerability discovery, and I bring these methods to other fields such as energy and veterinary science. My work appears at top security and software engineering venues, including ACM CCS, NDSS, OOPSLA, FSE, ASE and ISSTA, and in top journals, including IEEE TIFS, IEEE TDSC, IEEE TSE, IEEE TMC and ACM TOSEM.",
     education: [["2016–2021", "PhD in Computer Science (Software Engineering and Security), Nanyang Technological University, Singapore"], ["2010–2014", "Bachelor of Computer Science, Tianjin University, China"]],
     // TODO: confirm years
