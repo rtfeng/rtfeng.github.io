@@ -345,7 +345,7 @@
           <li>Security and AI for energy or veterinary science</li>
         </ul>
         <p class="do">Email me your CV, transcript and a one-page idea.</p>
-        <p class="meet" hidden><a href="#students">Meet the students I supervise now</a></p>
+        <p class="meet" hidden><a href="#students">Meet the students I currently supervise</a></p>
       </div>
       <div class="door" id="work-coursework">
         <h3>SCU students</h3>
@@ -421,7 +421,7 @@
   <section id="students" hidden aria-label="Students">
     <a class="back-home" href="#work">← Back to the homepage</a>
     <h2>Students</h2>
-    <p class="intro">Research students I supervise or co-supervise, at Southern Cross University and partner universities. Highlighted tags are their first-author papers.</p>
+    <p class="intro">Research students for whom I am the principal supervisor, at Southern Cross University and partner universities. Highlighted tags are their first-author papers.</p>
     <div id="stList"></div>
   </section>
 
@@ -1064,7 +1064,7 @@
   INTENTS.egg.kw = INTENTS.egg.kw.filter(k => k !== "favourite" && k !== "favorite");
   INTENTS.egg.kw.push("what do you like", "do you like", "outside work", "after hours", "after-hours", "side quest");
   if (LISTED.length) INTENTS.team = {
-    ans: `I currently supervise or co-supervise ${LISTED.filter(x => x.status !== "alumni").length} research students at SCU and partner universities. See who they are on the students page.`,
+    ans: `I am the principal supervisor of ${LISTED.filter(x => x.status !== "alumni").length} research students at SCU and partner universities. See who they are on the students page.`,
     dest: ["team", "students"],
     kw: ["your students", "current students", "phd students", "who do you supervise", "supervise", "lab", "group", "team", "members", "学生", "课题组", "团队", "实验室"],
     ex: ["who are your students", "who do you supervise", "your research group", "lab members", "你带哪些学生", "你的课题组有谁"] };
